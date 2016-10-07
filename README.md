@@ -1,6 +1,6 @@
 # hl2mt-js: Hero lab to MapTool
 
-An small Node/Electron (former Atom Shell) app which allows you to create and edit MapTool tokens generated from Herolab/Pathfinder portifolios. It was mainly based on the works from Mark Mealman (https://bitbucket.org/mmealman/).
+A small Node/Electron (former Atom Shell) app which allows you to create and edit MapTool tokens generated from Herolab/Pathfinder portifolios. It was mainly based on the works from Mark Mealman (https://bitbucket.org/mmealman/).
 
 ## About
 
