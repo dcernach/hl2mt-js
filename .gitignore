@@ -9,5 +9,5 @@
 
 ## Unneeded 'test' files
 /test/**/*.js
-/test/**/*.d.js
+/test/**/*.d.ts
 /test/**/*.js.map
