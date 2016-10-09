@@ -1,0 +1,30 @@
+// https://github.com/Microsoft/vscode-samples
+// http://stackoverflow.com/questions/30023736/mocha-breakpoints-using-visual-studio-code
+// https://alexanderzeitler.com/articles/debugging-mocha-tests-using-visual-studio-code-and-nvm/
+// http://www.andrewconnell.com/blog/running-mocha-tests-with-visual-studio-code
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mocha",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "-t",
+                "600000",
+                "test/**/*.spec.js",
+                "build/**/*.spec.js"
+            ],
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "outDir": "${workspaceRoot}/build",
+            "preLaunchTask": "Build",
+            "sourceMaps": true,
+            "stopOnEntry": false
+        }
+    ]
+}

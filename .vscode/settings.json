@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "html.format.wrapLineLength": 100,
+    "path-intellisense.extensionOnImport": true,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "editor.rulers": [80],
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/*.asax": true,
+        "**/*.config": true,
+        "**/*.cs": true,
+        "**/*.csproj": true,
+        "**/*.js.map": true,
+        "**/*.user": true,
+        "**/*.vs*": false,
+        "obj": true,
+        "bin": true,
+        "build": true,
+        "@types": true,
+        "node_modules": true,
+        "Properties": true,
+        "src/**/*.js": true,
+        "src/**/*.d.ts": true,
+        "test/**/*.js": true,
+        "test/**/*.d.ts": true
+    }
+}

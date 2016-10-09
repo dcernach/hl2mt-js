@@ -1,0 +1,13 @@
+## Unneeded folders
+/node_modules
+/build
+
+## Unneeded 'src' files
+/src/**/*.js
+/src/**/*.d.ts
+/src/**/*.js.map
+
+## Unneeded 'test' files
+/test/**/*.js
+/test/**/*.d.js
+/test/**/*.js.map

@@ -1,0 +1,55 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+
+    // NPM as Build Tool: https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "command": "npm",
+    "args": ["run"],
+    "tasks": [
+        {
+            "taskName": "Clean",
+            "suppressTaskName": true,
+            "isBuildCommand": false,
+            "showOutput": "silent",
+            "args": ["build:clean"]
+        },
+        {
+            "taskName": "Build",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "problemMatcher": "$tsc",
+            "showOutput": "always",
+            "args": ["build:tsc"]
+        }
+    ]
+}
+// {
+//     // See https://go.microsoft.com/fwlink/?LinkId=733558
+//     // for the documentation about the tasks.json format
+//     "version": "0.1.0",
+//     "isShellCommand": true,
+//     "command": "cmd",
+//     "args": [
+//         "/c"
+//     ],
+//     "tasks": [
+//         {
+//             "taskName": "del",
+//             "args": ["build", "/s", "/f", "/q"],
+//             "isBuildCommand": false,
+//             "showOutput": "silent"
+//         },
+//         {
+//             "taskName": "tsc",
+//             "args": [
+//                 "-p",
+//                 "."
+//             ],
+//             "isBuildCommand": true,
+//             "problemMatcher": "$tsc",
+//             "showOutput": "silent"
+//         }
+//     ]
+// }

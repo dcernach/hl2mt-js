@@ -1,0 +1,25 @@
+//////////////////////////////////////////////////////////////////////////
+/// https://github.com/Microsoft/TypeScript/issues/9725                 //
+/// https://www.typescriptlang.org/docs/handbook/compiler-options.html  //
+//////////////////////////////////////////////////////////////////////////
+{
+    "enableAutoDiscoveryDefinition" : true,
+    "compileOnSave"                 : true,
+    "exclude"                       : ["build", "dist", "node_modules", "@types"],
+    "compilerOptions": {
+        "module"                    : "commonjs",
+        "moduleResolution"          : "node",
+        "outDir"                    : "build",
+        "target"                    : "ES5",
+        "typeRoots"                 : ["node_modules/@types"],
+        "declarationDir"            : ".",
+        "declaration"               : true,
+        "emitDecoratorMetadata"     : true,
+        "experimentalDecorators"    : true,
+        "listFiles"                 : true,
+        "noImplicitReturns"         : true,
+        "preserveConstEnums"        : true,
+        "pretty"                    : true,
+        "sourceMap"                 : true
+    }
+}
