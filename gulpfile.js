@@ -5,7 +5,7 @@ const tsc = require('gulp-typescript');
 const del = require('del');
 
 gulp.task('build:clean', (done) => {
-    del(['build', 'src/**/*.d.ts', 'test/**/*.d.ts']).then((files) => {
+    del(['build']).then((files) => {
         console.log('  Deleted files and folders:\n    ' + files.join('\n    '));
         done();
     }).catch((err) => {
