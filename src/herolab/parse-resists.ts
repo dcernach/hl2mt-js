@@ -1,7 +1,7 @@
 import { Element } from 'elementtree';
 import * as hl from './types';
 
-export class ParseResist {
+export class ParseResists {
     public resists: hl.ResistanceType[] = [];
 
     public constructor(protected xml: Element) {

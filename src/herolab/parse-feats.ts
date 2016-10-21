@@ -1,7 +1,7 @@
 import { Element } from 'elementtree';
 import * as hl from './types';
 
-export class ParseFeat {
+export class ParseFeats {
     public feats: hl.FeatType[] = [];
 
     public constructor(protected xml: Element) {

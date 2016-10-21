@@ -20,7 +20,7 @@ describe('Herolab XML export parsing', function () {
 
 
     it('Should parse the "red_dragon_adult.xml" FEATS', function () {
-        let parser = new hl.ParseFeat(char);
+        let parser = new hl.ParseFeats(char);
         parser.parse();
         expect(parser.feats).to.have.lengthOf(10);
         expect(parser.feats[0].name).to.be.equal('Cleave');
@@ -30,7 +30,7 @@ describe('Herolab XML export parsing', function () {
 
 
     it('Should parse the "red_dragon_adult.xml" RESISTANCES', function () {
-        let parser = new hl.ParseResist(char);
+        let parser = new hl.ParseResists(char);
         parser.parse();
         expect(parser.resists).to.have.lengthOf(5);
         expect(parser.resists[0].name).to.be.equal('Damage Reduction (5/magic)');
@@ -39,7 +39,7 @@ describe('Herolab XML export parsing', function () {
 
 
     it('Should parse the "red_dragon_adult.xml" LANGUAGES', function () {
-        let parser = new hl.ParseLanguage(char);
+        let parser = new hl.ParseLanguages(char);
         parser.parse();
         expect(parser.languages).to.have.lengthOf(4);
         expect(parser.languages[0].name).to.be.equal('Common');
@@ -83,12 +83,12 @@ describe('Herolab XML export parsing', function () {
         expect(parser.attributeMap).to.have.keys('str', 'dex', 'con', 'int', 'wis', 'cha');
 
         expect(parser.attributes).to.deep.include.members([
-            { abbr: 'Str', name: 'Strength',    score: 31, bonus: 10, situational: '' },
-            { abbr: 'Dex', name: 'Dexterity',    score: 10, bonus: 0, situational: '' },
-            { abbr: 'Con', name: 'Constitution', score: 23, bonus: 6, situational: '' },
-            { abbr: 'Int', name: 'Intelligence', score: 16, bonus: 3, situational: '' },
-            { abbr: 'Wis', name: 'Wisdom',       score: 17, bonus: 3, situational: '' },
-            { abbr: 'Cha', name: 'Charisma',     score: 16, bonus: 3, situational: '' }
+            { abbr: 'Str', name: 'Strength',     score: 31, bonus: 10, situational: '' },
+            { abbr: 'Dex', name: 'Dexterity',    score: 10, bonus:  0, situational: '' },
+            { abbr: 'Con', name: 'Constitution', score: 23, bonus:  6, situational: '' },
+            { abbr: 'Int', name: 'Intelligence', score: 16, bonus:  3, situational: '' },
+            { abbr: 'Wis', name: 'Wisdom',       score: 17, bonus:  3, situational: '' },
+            { abbr: 'Cha', name: 'Charisma',     score: 16, bonus:  3, situational: '' }
         ]);
     })
 })
