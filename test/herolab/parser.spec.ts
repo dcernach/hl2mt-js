@@ -28,6 +28,7 @@ describe('Herolab XML export parsing', function () {
 
     })
 
+
     it('Should parse the "red_dragon_adult.xml" RESISTANCES', function () {
         let parser = new hl.ParseResist(char);
         parser.parse();
@@ -36,12 +37,59 @@ describe('Herolab XML export parsing', function () {
         expect(parser.resists[1].name).to.be.equal('Immunity to Fire');
     })
 
+
     it('Should parse the "red_dragon_adult.xml" LANGUAGES', function () {
         let parser = new hl.ParseLanguage(char);
         parser.parse();
         expect(parser.languages).to.have.lengthOf(4);
         expect(parser.languages[0].name).to.be.equal('Common');
         expect(parser.languages[1].name).to.be.equal('Draconic');
+    })
+
+
+    it('Should parse the "red_dragon_adult.xml" SKILLS', function () {
+        let parser = new hl.ParseSkills(char);
+        parser.parse();
+        expect(parser.skills).to.have.lengthOf(23);
+
+        expect(parser.skills[0]).to.include({
+            name: 'Acrobatics',
+            situational: 'Speed greater/less than 30 ft.: +4 to jump'
+        })
+
+        expect(parser.skills[8]).to.include({
+            name: 'Fly',
+            ranks: 17
+        })
+    })
+
+
+    it('Should parse the "red_dragon_adult.xml" TRAITS', function () {
+        let parser = new hl.ParseTraits(char);
+        parser.parse();
+        expect(parser.traits).to.have.lengthOf(2);
+        expect(parser.traits[0]).to.include({
+            name: 'Deathtouched (+2 vs. mind-affecting effects)',
+            category: 'Bloodline'
+        })
+    })
+
+
+    it('Should parse the "red_dragon_adult.xml" ATTRIBUTES', function () {
+        let parser = new hl.ParseAttributes(char);
+        parser.parse();
+        
+        expect(parser.attributes).to.have.lengthOf(6);
+        expect(parser.attributeMap).to.have.keys('str', 'dex', 'con', 'int', 'wis', 'cha');
+
+        expect(parser.attributes).to.deep.include.members([
+            { abbr: 'Str', name: 'Strength',    score: 31, bonus: 10, situational: '' },
+            { abbr: 'Dex', name: 'Dexterity',    score: 10, bonus: 0, situational: '' },
+            { abbr: 'Con', name: 'Constitution', score: 23, bonus: 6, situational: '' },
+            { abbr: 'Int', name: 'Intelligence', score: 16, bonus: 3, situational: '' },
+            { abbr: 'Wis', name: 'Wisdom',       score: 17, bonus: 3, situational: '' },
+            { abbr: 'Cha', name: 'Charisma',     score: 16, bonus: 3, situational: '' }
+        ]);
     })
 })
 //console.log(util.inspect(parse.feats, false, null));
