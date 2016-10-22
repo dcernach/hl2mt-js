@@ -7,209 +7,157 @@ Pathfinder® and associated marks and logos are trademarks of Paizo Inc.®, and 
 			<version version="7.6b" primary="7" secondary="6" tertiary="b" build="623"/>
 		</program>
 		<localization language="eng" units="imperial"/>
-		<character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Red Dragon, Adult" playername="">
-			<bookinfo name="Bestiary"/>
-			<race racetext="red, adult dragon" name="red, adult dragon" ethnicity=""/>
-			<alignment name="Chaotic Evil"/>
-			<templates summary="Dragon, Red, Adult +17"/>
-			<size name="Huge">
-				<space text="15'" value="15"/>
-				<reach text="10'" value="10"/>
+		<character active="yes" nature="normal" role="pc" relationship="ally" type="Arcane Familiar" name="Arcane Familiar" playername="">
+			<race racetext="lizard" name="lizard" ethnicity=""/>
+			<alignment name="True Neutral"/>
+			<templates summary="Lizard +1"/>
+			<size name="Tiny">
+				<space text="2'" value="2"/>
+				<reach text="0'" value="0"/>
 			</size>
 			<deity name=""/>
-			<challengerating value="14" text="CR 14"/>
-			<xpaward value="38400" text="38,400 XP"/>
+			<challengerating value="0.166667" text="CR 1/6"/>
+			<xpaward value="65" text="65 XP"/>
 			<classes level="0" summary="" summaryabbr=""/>
 			<factions/>
 			<types>
-				<type name="Dragon" active="yes"/>
+				<type name="(Animal)"/>
 			</types>
-			<subtypes>
-				<subtype name="Fire"/>
-			</subtypes>
+			<subtypes/>
 			<heropoints enabled="no" total="0"/>
 			<senses>
-				<special name="Blindsense (60 feet) (Ex)" shortname="Blindsense 60 ft." type="Extraordinary Ability">
-					<description>Using nonvisual senses, such as acute smell or hearing, a creature with blindsense notices things it cannot see. The creature usually does not need to attempt Perception checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature cannot see still has total concealment against the creature with blindsense, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.</description>
-				</special>
-				<special name="Darkvision (120 feet)" shortname="Darkvision 120 ft." sourcetext="Dragon">
-					<description>A creature with darkvision can see in total darkness, usually to a range of 60 feet. Within this range the creature can see as clearly as a sighted creature could see in an area of bright light. Darkvision is black and white only but otherwise like normal sight.</description>
-					<specsource>Dragon</specsource>
-				</special>
-				<special name="Dragon Senses (Ex)" shortname="Dragon Senses" type="Extraordinary Ability">
-					<description>Dragons have Darkvision 120 ft. and blindsense 60 ft. They see four times as well as a human in dim light and twice as well in normal light.</description>
-				</special>
 				<special name="Low-Light Vision" shortname="Low-Light Vision">
 					<description>A creature with low-light vision can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of dim light. It retains the ability to distinguish color and detail under these conditions.</description>
 				</special>
-				<special name="Smoke Vision (Ex)" shortname="Smoke Vision" type="Extraordinary Ability" sourcetext="Dragon, Red, Adult">
-					<description>A very young red dragon can see perfectly in smoky conditions (such as those created by pyrotechnics).</description>
-					<specsource>Dragon, Red, Adult</specsource>
-				</special>
 			</senses>
-			<auras>
-				<special name="Fire Aura (5 ft, 1d6 fire) (Su)" shortname="Fire Aura" type="Supernatural Ability" sourcetext="Dragon, Red, Adult">
-					<description>An adult red dragon is surrounded by an aura of intense heat. All creatures within 5 feet take 1d6 points of fire damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.</description>
-					<specsource>Dragon, Red, Adult</specsource>
-				</special>
-				<special name="Frightful Presence (180 feet, 5d6 rds, DC 21)" shortname="Frightful Presence (DC 21)" sourcetext="Dragon, Red, Adult">
-					<description>This special quality makes a creature's very presence unsettling to foes. Activating this ability is a free action that is usually part of an attack or charge. Opponents within range who witness the action may become frightened or shaken. The range is usually 30 feet, and the duration is usually 5d6 rounds. This ability affects only opponents with fewer Hit Dice or levels than the creature has. An affected opponent can resist the effects with a successful Will save (DC = 10 + 1/2 the frightful creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a failed save, the opponent is shaken, or panicked if it has 4 Hit Dice or fewer. An opponent that succeeds at the saving throw is immune to that same creature's frightful presence for 24 hours. Frightful presence is a mind-affecting fear effect.</description>
-					<specsource>Dragon, Red, Adult</specsource>
-				</special>
-			</auras>
+			<auras/>
 			<favoredclasses/>
-			<health hitdice="17d12+102" hitpoints="212" damage="0" nonlethal="0" currenthp="212"/>
+			<health hitdice="1d8-1" hitpoints="40" damage="0" nonlethal="0" currenthp="40"/>
 			<xp total="0"/>
 			<money total="0" pp="0" gp="0" sp="0" cp="0" valuables="0"/>
-			<personal gender="Male" age="0" hair="" eyes="" skin="">
+			<personal gender="" age="0" hair="" eyes="" skin="">
 				<description/>
 				<charheight text="0'" value="0"/>
 				<charweight text="0 lb." value="0"/>
 			</personal>
-			<languages>
-				<language name="Common" useradded="no"/>
-				<language name="Draconic" useradded="no"/>
-				<language name="Dwarven" useradded="no"/>
-				<language name="Orc" useradded="no"/>
-			</languages>
+			<languages/>
 			<attributes>
 				<attribute name="Strength">
-					<attrvalue text="31" base="31" modified="31"/>
-					<attrbonus text="+10" base="+10" modified="+10"/>
+					<attrvalue text="3" base="3" modified="3"/>
+					<attrbonus text="-4" base="-4" modified="-4"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 				<attribute name="Dexterity">
-					<attrvalue text="10" base="10" modified="10"/>
-					<attrbonus text="0" base="+0" modified="+0"/>
+					<attrvalue text="15" base="15" modified="15"/>
+					<attrbonus text="+2" base="+2" modified="+2"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 				<attribute name="Constitution">
-					<attrvalue text="23" base="23" modified="23"/>
-					<attrbonus text="+6" base="+6" modified="+6"/>
+					<attrvalue text="8" base="8" modified="8"/>
+					<attrbonus text="-1" base="-1" modified="-1"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 				<attribute name="Intelligence">
-					<attrvalue text="16" base="16" modified="16"/>
-					<attrbonus text="+3" base="+3" modified="+3"/>
+					<attrvalue text="11" base="11" modified="11"/>
+					<attrbonus text="0" base="+0" modified="+0"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 				<attribute name="Wisdom">
-					<attrvalue text="17" base="17" modified="17"/>
-					<attrbonus text="+3" base="+3" modified="+3"/>
+					<attrvalue text="12" base="12" modified="12"/>
+					<attrbonus text="+1" base="+1" modified="+1"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 				<attribute name="Charisma">
-					<attrvalue text="16" base="16" modified="16"/>
-					<attrbonus text="+3" base="+3" modified="+3"/>
+					<attrvalue text="2" base="2" modified="2"/>
+					<attrbonus text="-4" base="-4" modified="-4"/>
 					<situationalmodifiers text=""/>
 				</attribute>
 			</attributes>
 			<saves>
-				<save name="Fortitude Save" abbr="Fort" save="+16" base="+10" fromattr="+6" fromresist="" frommisc="">
+				<save name="Fortitude Save" abbr="Fort" save="+3" base="+4" fromattr="-1" fromresist="" frommisc="">
 					<situationalmodifiers text=""/>
 				</save>
-				<save name="Reflex Save" abbr="Ref" save="+10" base="+10" fromattr="" fromresist="" frommisc="">
+				<save name="Reflex Save" abbr="Ref" save="+6" base="+4" fromattr="+2" fromresist="" frommisc="">
 					<situationalmodifiers text=""/>
 				</save>
-				<save name="Will Save" abbr="Will" save="+15" base="+10" fromattr="+3" fromresist="" frommisc="+2">
+				<save name="Will Save" abbr="Will" save="+9" base="+8" fromattr="+1" fromresist="" frommisc="">
 					<situationalmodifiers text=""/>
 				</save>
 				<allsaves save="+0" base="" fromresist="" frommisc="">
-					<situationalmodifiers text="Heart of the Sun: +2 racial bonus vs. hot climate; Heart of the Sun: +2 racial bonus vs. poison or distraction abilities of swarms">
-						<situationalmodifier text="+2 racial bonus vs. hot climate" source="Heart of the Sun"/>
-						<situationalmodifier text="+2 racial bonus vs. poison or distraction abilities of swarms" source="Heart of the Sun"/>
-					</situationalmodifiers>
+					<situationalmodifiers text=""/>
 				</allsaves>
 			</saves>
 			<defensive/>
-			<damagereduction>
-				<special name="Damage Reduction (5/magic)" shortname="5/magic">
-					<description>You have Damage Reduction against all except Magic attacks.</description>
-				</special>
-			</damagereduction>
-			<immunities>
-				<special name="Immunity to Fire" shortname="fire">
-					<description>You are immune to fire damage.</description>
-				</special>
-				<special name="Immunity to Paralysis" shortname="paralysis">
-					<description>You are immune to paralysis.</description>
-				</special>
-				<special name="Immunity to Sleep" shortname="sleep">
-					<description>You are immune to sleep effects.</description>
-				</special>
-			</immunities>
+			<damagereduction/>
+			<immunities/>
 			<resistances>
-				<special name="Spell Resistance (25)" shortname="spells 25">
+				<special name="Spell Resistance (17)" shortname="spells 17">
 					<description>You have Spell Resistance.</description>
 				</special>
 			</resistances>
-			<weaknesses>
-				<special name="Vulnerable to Cold" shortname="Vulnerable to Cold">
-					<description>You are vulnerable (+50% damage) to Cold damage.</description>
-				</special>
-			</weaknesses>
-			<armorclass ac="29" touch="8" flatfooted="29" fromarmor="" fromshield="" fromdexterity="" fromwisdom="" fromcharisma="" fromsize="-2" fromnatural="+21" fromdeflect="" fromdodge="" frommisc="">
+			<weaknesses/>
+			<armorclass ac="20" touch="14" flatfooted="18" fromarmor="" fromshield="" fromdexterity="+2" fromwisdom="" fromcharisma="" fromsize="+2" fromnatural="+6" fromdeflect="" fromdodge="" frommisc="">
 				<situationalmodifiers text=""/>
 			</armorclass>
 			<penalties>
 				<penalty name="Armor Check Penalty" text="0" value="0"/>
 				<penalty name="Max Dex Bonus" text="99999" value="99999"/>
 			</penalties>
-			<maneuvers cmb="+29" cmd="39" cmdflatfooted="39">
+			<maneuvers cmb="+6" cmd="12" cmdflatfooted="10">
 				<situationalmodifiers text=""/>
-				<maneuvertype name="Awesome Blow" bonus="2" cmb="+29" cmd="39">
+				<maneuvertype name="Awesome Blow" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Bull Rush" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Bull Rush" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Dirty Trick" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Dirty Trick" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Disarm" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Disarm" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Drag" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Drag" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Feint" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Feint" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Grapple" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Grapple" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Overrun" bonus="0" cmb="+29" cmd="43">
+				<maneuvertype name="Overrun" bonus="0" cmb="+6" cmd="16">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Pull" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Pull" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Push" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Push" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Reposition" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Reposition" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Steal" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Steal" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Sunder" bonus="0" cmb="+29" cmd="39">
+				<maneuvertype name="Sunder" bonus="0" cmb="+6" cmd="12">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
-				<maneuvertype name="Trip" bonus="0" cmb="+29" cmd="43">
+				<maneuvertype name="Trip" bonus="0" cmb="+6" cmd="16">
 					<situationalmodifiers text=""/>
 				</maneuvertype>
 			</maneuvers>
-			<initiative total="+4" attrtext="+0" misctext="+0" attrname="Dexterity">
+			<initiative total="+2" attrtext="+2" misctext="+0" attrname="Dexterity">
 				<situationalmodifiers text=""/>
 			</initiative>
 			<movement>
-				<speed text="40'" value="40"/>
-				<basespeed text="40'" value="40"/>
+				<speed text="20'" value="20"/>
+				<basespeed text="20'" value="20"/>
 			</movement>
-			<encumbrance carried="0" encumstr="31" light="3672" medium="7344" heavy="11040" level="Light Load"/>
+			<encumbrance carried="0" encumstr="3" light="7.5" medium="15" heavy="22.5" level="Light Load"/>
 			<skills>
-				<skill name="Acrobatics" ranks="0" attrbonus="0" attrname="DEX" value="0" armorcheck="yes">
+				<skill name="Acrobatics" ranks="0" attrbonus="2" attrname="DEX" value="10" armorcheck="yes" classskill="yes">
 					<description>You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip, jump, and roll to avoid attacks and overcome obstacles.
 
 Check: You can use Acrobatics to move on narrow surfaces and uneven ground without falling. A successful check allows you to move at half speed across such surfaces - only one check is needed per round. Use the following table to determine the base DC, which is then modified by the Acrobatics skill modifiers noted on page 89. While you are using Acrobatics in this way, you are considered flat-footed and lose your Dexterity bonus to your AC (if any). If you take damage while using Acrobatics, you must immediately make another Acrobatics check at the same DC to avoid falling or being knocked prone.
@@ -263,11 +211,11 @@ Move at full speed on narrow or uneven surfaces: +5*
 * This does not apply to checks made to jump.
 
 Continued - Core Rulebook, pg. 87</description>
-					<situationalmodifiers text="Speed greater/less than 30 ft.: +4 to jump">
-						<situationalmodifier text="+4 to jump" source="Speed greater/less than 30 ft."/>
+					<situationalmodifiers text="Speed greater/less than 30 ft.: -4 to jump">
+						<situationalmodifier text="-4 to jump" source="Speed greater/less than 30 ft."/>
 					</situationalmodifiers>
 				</skill>
-				<skill name="Appraise" ranks="17" attrbonus="3" attrname="INT" value="23" classskill="yes">
+				<skill name="Appraise" ranks="0" attrbonus="0" attrname="INT" value="0">
 					<description>You can evaluate the monetary value of an object.
 
 Check: A DC 20 Appraise check determines the value of a common item. If you succeed by 5 or more, you also determine if the item has magic properties, although this success does not grant knowledge of the magic item's abilities. If your fail the check by less than 5, you determine the price of that item to within 20% of its actual value. If you fail this check by 5 or more, the price is wildly inaccurate, subject to GM discretion. Particularly rare or exotic items might increase the DC of this check by 5 or more.
@@ -281,7 +229,7 @@ Try Again: Additional attempts to Appraise an item reveal the same result.
 Special: A spellcaster with a raven familiar gains a +3 bonus on Appraise checks.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Bluff" ranks="17" attrbonus="3" attrname="CHA" value="23" classskill="yes">
+				<skill name="Bluff" ranks="12" attrbonus="-4" attrname="CHA" value="8">
 					<description>You know how to tell a lie.
 
 Check: Bluff is an opposed skill check against your opponent's Sense Motive skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion).
@@ -314,7 +262,7 @@ Special: A spellcaster with a viper familiar gains a +3 bonus on Bluff checks.
 If you have the Deceitful feat, you get a bonus on Bluff checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Climb" ranks="0" attrbonus="10" attrname="STR" value="10" armorcheck="yes" classskill="yes" tools="uses">
+				<skill name="Climb" ranks="0" attrbonus="2" attrname="DEX" value="10" armorcheck="yes" classskill="yes" tools="uses">
 					<description>You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs.
 
 Check: With a successful Climb check, you can advance up, down, or across a slope, wall, or other steep incline (or even across a ceiling, provided it has handholds) at one-quarter your normal speed. A slope is considered to be any incline at an angle measuring less than 60 degrees; a wall is any incline at an angle measuring 60 degrees or more.
@@ -356,7 +304,7 @@ Special: You can use a rope to haul a character upward (or lower a character) th
 Continued - Core Rulebook, pg. 90</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Diplomacy" ranks="0" attrbonus="3" attrname="CHA" value="3" classskill="yes">
+				<skill name="Diplomacy" ranks="0" attrbonus="-4" attrname="CHA" value="-4">
 					<description>You can use this skill to persuade others to agree with your arguments, to resolve differences, and to gather valuable information or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem.
 
 Check: You can change the initial attitudes of nonplayer characters with a successful check. The DC of this check depends on the creature's starting attitude toward you, adjusted by its Charisma modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character's attitude toward you is unchanged. If you fail by 5 or more, the character's attitude toward you is decreased by one step.
@@ -392,7 +340,7 @@ Try Again: You cannot use Diplomacy to influence a given creature's attitude mor
 Special: If you have the Persuasive feat, you gain a bonus on Diplomacy checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Disable Device" ranks="0" attrbonus="0" attrname="DEX" value="-2" armorcheck="yes" trainedonly="yes" usable="no" tools="needs">
+				<skill name="Disable Device" ranks="0" attrbonus="2" attrname="DEX" value="0" armorcheck="yes" trainedonly="yes" usable="no" tools="needs">
 					<description>You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors.
 
 Check: When disarming a trap or other device, the Disable Device check is made secretly, so that you don't necessarily know whether you've succeeded.
@@ -429,7 +377,7 @@ Restriction: Characters with the trapfinding ability (like rogues) can disarm ma
 The spells fire trap, glyph of warding, symbol, and teleportation circle also create traps that a rogue can disarm with a successful Disable Device check. Spike growth and spike stones, however, create magic hazards against which Disable Device checks do not succeed. See the individual spell descriptions for details.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Disguise" ranks="0" attrbonus="3" attrname="CHA" value="3" tools="uses">
+				<skill name="Disguise" ranks="0" attrbonus="-4" attrname="CHA" value="-4" tools="uses">
 					<description>You are skilled at changing your appearance.
 
 Check: Your Disguise check result determines how good the disguise is, and it is opposed by others' Perception check results. If you don't draw any attention to yourself, others do not get to make Perception checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), it can be assumed that such observers are taking 10 on their Perception checks.
@@ -468,7 +416,7 @@ You must make a Disguise check when you cast a simulacrum spell to determine how
 If you have the Deceitful feat, you gain a bonus on Disguise checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Escape Artist" ranks="0" attrbonus="0" attrname="DEX" value="0" armorcheck="yes">
+				<skill name="Escape Artist" ranks="0" attrbonus="2" attrname="DEX" value="2" armorcheck="yes">
 					<description>Your training allows you to slip out of bonds and escape from grapples.
 
 Check: The table below gives the DCs needed to escape various forms of restraints.
@@ -493,7 +441,7 @@ Try Again: Varies. You can make another check after a failed check if you're squ
 Special: If you have the Stealthy feat, you gain a bonus on Escape Artist checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Fly" ranks="17" attrbonus="0" attrname="DEX" value="12" armorcheck="yes" classskill="yes">
+				<skill name="Fly" ranks="0" attrbonus="2" attrname="DEX" value="6" armorcheck="yes" classskill="yes">
 					<description>You are skilled at flying, through either the use of wings or magic, and can perform daring or complex maneuvers while airborne. Note that this skill does not give you the ability to fly.
 
 Check: You generally need only make a Fly check when you are attempting a complex maneuver. Without making a check, a flying creature can remain flying at the end of its turn so long as it moves a distance greater than half its speed. It can also turn up to 45 degrees by sacrificing 5 feet of movement, can rise at half speed at an angle of 45 degrees, and can descend at any angle at normal speed. Note that these restrictions only apply to movement taken during your current turn. At the beginning of the next turn, you can move in a different direction than you did the previous turn without making a check. Taking any action that violates these rules requires a Fly check. The difficulty of these maneuvers varies depending upon the maneuver you are attempting, as noted on the following chart.
@@ -528,7 +476,7 @@ You cannot take ranks in this skill without a natural means of flight or gliding
 If you have the Acrobatic feat, you get a bonus on Fly checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Handle Animal" ranks="0" attrbonus="3" attrname="CHA" value="3" trainedonly="yes" usable="no">
+				<skill name="Handle Animal" ranks="0" attrbonus="-4" attrname="CHA" value="-4" trainedonly="yes" usable="no">
 					<description>You are trained at working with animals, and can teach them tricks, get them to follow your simple commands, or even domesticate them.
 
 Check: The DC depends on what you are trying to do.
@@ -567,7 +515,7 @@ An animal can be trained for only one general purpose, though if the creature is
 Continued - Core Rulebook, pg. 97.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Heal" ranks="0" attrbonus="3" attrname="WIS" value="3" classskill="yes" tools="uses">
+				<skill name="Heal" ranks="0" attrbonus="1" attrname="WIS" value="1" tools="uses">
 					<description>You are skilled at tending to wounds and ailments.
 
 Check: The DC and effect of a Heal check depend on the task you attempt.
@@ -606,7 +554,7 @@ Special: A character with the Self-Sufficient feat gets a bonus on Heal checks (
 A healer's kit gives you a +2 circumstance bonus on Heal checks.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Intimidate" ranks="17" attrbonus="3" attrname="CHA" value="23" classskill="yes">
+				<skill name="Intimidate" ranks="0" attrbonus="-4" attrname="CHA" value="-4">
 					<description>You can use this skill to frighten your opponents or to get them to act in a way that benefits you. This skill includes verbal threats and displays of prowess.
 
 Check: You can use Intimidate to force an opponent to act friendly toward you for 1d6 × 10 minutes with a successful check. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier.
@@ -626,32 +574,7 @@ If you have the Persuasive feat, you get a bonus on Intimidate checks (see Chapt
 A half-orc gets a +2 bonus on Intimidate checks.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Knowledge (arcana)" ranks="17" attrbonus="3" attrname="INT" value="23" classskill="yes" trainedonly="yes">
-					<description>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.
-
-• Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts)
-• Dungeoneering (aberrations, caverns, oozes, spelunking)
-• Engineering (buildings, aqueducts, bridges, fortifications)
-• Geography (lands, terrain, climate, people)
-• History (wars, colonies, migrations, founding of cities)
-• Local (legends, personalities, inhabitants, laws, customs, traditions, humanoids)
-• Nature (animals, fey, monstrous humanoids, plants, seasons and cycles, weather, vermin)
-• Nobility (lineages, heraldry, personalities, royalty)
-• Planes (the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, planar magic)
-• Religion (gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead)
-
-Check: Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).
-
-You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information. Many of the Knowledge skills have specific uses as noted on Table 4-6.
-
-Action: Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).
-
-Try Again: No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.
-
-Untrained: You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</description>
-					<situationalmodifiers text=""/>
-				</skill>
-				<skill name="Linguistics" ranks="0" attrbonus="3" attrname="INT" value="3" classskill="yes" trainedonly="yes" usable="no">
+				<skill name="Linguistics" ranks="0" attrbonus="0" attrname="INT" value="0" trainedonly="yes" usable="no">
 					<description>You are skilled at working with language, in both its spoken and written forms. You can speak multiple languages, and can decipher nearly any tongue given enough time. Your skill in writing allows you to create and detect forgeries as well.
 
 Check: You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
@@ -702,7 +625,7 @@ Try Again: Yes.
 Special: You must be trained to use this skill, but you can always attempt to read archaic and strange forms of your own racial bonus languages. In addition, you can also always attempt to detect a forgery.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Perception" ranks="17" attrbonus="3" attrname="WIS" value="23" classskill="yes">
+				<skill name="Perception" ranks="1" attrbonus="1" attrname="WIS" value="5" classskill="yes">
 					<description>Your senses allow you to notice fine details and alert you to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell.
 
 Check: Perception has a number of uses, the most common of which is an opposed check versus an opponent's Stealth check to notice the opponent and avoid being surprised. If you are successful, you notice the opponent and can react accordingly. If you fail, your opponent can take a variety of actions, including sneaking past you and attacking you.
@@ -750,7 +673,7 @@ Special: Elves, half-elves, gnomes, and halflings receive a +2 racial bonus on P
 A spellcaster with a hawk or owl familiar gains a +3 bonus on Perception checks. If you have the Alertness feat, you get a bonus on Perception checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Ride" ranks="0" attrbonus="0" attrname="DEX" value="0" armorcheck="yes">
+				<skill name="Ride" ranks="0" attrbonus="2" attrname="DEX" value="2" armorcheck="yes">
 					<description>You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a griffon or pegasus. If you attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on your Ride checks.
 
 Check: Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount without a problem. The following tasks do require checks.
@@ -795,7 +718,7 @@ If you use a military saddle you get a +2 circumstance bonus on Ride checks rela
 Ride is a prerequisite for Mounted Archery, Mounted Combat, Ride-By Attack, Spirited Charge, and Trample.</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Sense Motive" ranks="17" attrbonus="3" attrname="WIS" value="23" classskill="yes">
+				<skill name="Sense Motive" ranks="0" attrbonus="1" attrname="WIS" value="1">
 					<description>You are skilled at detecting falsehoods and true intentions.
 
 Check: A successful check lets you avoid being bluffed (see the Bluff skill). You can also use this skill to determine when "something is up" (that is, something odd is going on) or to assess someone's trustworthiness.
@@ -820,7 +743,7 @@ Special: A ranger gains a bonus on Sense Motive checks when using this skill aga
 If you have the Alertness feat, you get a bonus on Sense Motive checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Sleight of Hand" ranks="0" attrbonus="0" attrname="DEX" value="0" armorcheck="yes" trainedonly="yes" usable="no">
+				<skill name="Sleight of Hand" ranks="0" attrbonus="2" attrname="DEX" value="2" armorcheck="yes" trainedonly="yes" usable="no">
 					<description>Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed.
 
 Check: A DC 10 Sleight of Hand check lets you palm a coin-sized, unattended object. Performing a minor feat of legerdemain, such as making a coin disappear, also has a DC of 10 unless an observer is determined to note where the item went.
@@ -848,7 +771,7 @@ Untrained: An untrained Sleight of Hand check is simply a Dexterity check. Witho
 Special: If you have the Deft Hands feat, you get a bonus on Sleight of Hand checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Spellcraft" ranks="17" attrbonus="3" attrname="INT" value="23" classskill="yes" trainedonly="yes">
+				<skill name="Spellcraft" ranks="12" attrbonus="0" attrname="INT" value="12" trainedonly="yes">
 					<description>You are skilled at the art of casting spells, identifying magic items, crafting magic items, and identifying spells as they are being cast.
 
 Check: Spellcraft is used whenever your knowledge and skill of the technical art of casting a spell or crafting a magic item comes into question. This skill is also used to identify the properties of magic items in your possession through the use of spells such as detect magic and identify. The DC of this check varies depending upon the task at hand.
@@ -864,7 +787,7 @@ An elf gets a +2 racial bonus on Spellcraft checks to identify the properties of
 If you have the Magical Aptitude feat, you gain a bonus on Spellcraft checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Stealth" ranks="17" attrbonus="0" attrname="DEX" value="12" armorcheck="yes" classskill="yes">
+				<skill name="Stealth" ranks="1" attrbonus="2" attrname="DEX" value="14" armorcheck="yes" classskill="yes">
 					<description>You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. Creatures that fail to beat your Stealth check are not aware of you and treat you as if you had total concealment. This skill covers hiding and moving silently.
 
 Check: Your Stealth check is opposed by the Perception check of anyone who might notice you. You can move up to half your normal speed and use Stealth at no penalty. When moving at a speed greater than half but less than your normal speed, you take a -5 penalty. It's impossible to use Stealth while attacking, running, or charging.
@@ -886,7 +809,7 @@ Special: If you are invisible, you gain a +40 bonus on Stealth checks if you are
 If you have the Stealthy feat, you get a bonus on Stealth checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Survival" ranks="0" attrbonus="3" attrname="WIS" value="3" classskill="yes">
+				<skill name="Survival" ranks="0" attrbonus="1" attrname="WIS" value="1">
 					<description>You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at following trails and tracks left by others.
 
 Check: You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.
@@ -951,7 +874,7 @@ A ranger gains a bonus on Survival checks when using this skill to find or follo
 If you have the Self-Sufficient feat, you get a bonus on Survival checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Swim" ranks="0" attrbonus="10" attrname="STR" value="10" armorcheck="yes" classskill="yes">
+				<skill name="Swim" ranks="0" attrbonus="2" attrname="DEX" value="2" armorcheck="yes" classskill="yes">
 					<description>You know how to swim and can do so even in stormy water.
 
 Check: Make a Swim check once per round while you are in the water. Success means you may swim at up to half your speed (as a full-round action) or at a quarter of your speed (as a move action). If you fail by 4 or less, you make no progress. If you fail by 5 or more, you go underwater.
@@ -973,7 +896,7 @@ Special: A creature with a swim speed can move through water at its indicated sp
 If you have the Athletic feat, you get a bonus on Swim checks (see Chapter 5).</description>
 					<situationalmodifiers text=""/>
 				</skill>
-				<skill name="Use Magic Device" ranks="0" attrbonus="3" attrname="CHA" value="3" classskill="yes" trainedonly="yes" usable="no">
+				<skill name="Use Magic Device" ranks="0" attrbonus="-4" attrname="CHA" value="-4" trainedonly="yes" usable="no">
 					<description>You are skilled at activating magic items, even if you are not otherwise trained in their use.
 
 Check: You can use this skill to read a spell or to activate a magic item. Use Magic Device lets you use a magic item as if you had the spell ability or class features of another class, as if you were a different race, or as if you were of a different alignment.
@@ -1014,114 +937,22 @@ Continued - Core Rulebook, pg. 108.</description>
 			</skills>
 			<skillabilities/>
 			<feats>
-				<feat name="Cleave" categorytext="Combat" useradded="no">
-					<description>You can strike two adjacent foes with a single swing.
+				<feat name="Weapon Finesse" categorytext="Combat" useradded="no">
+					<description>You are trained in using your agility in melee combat, as opposed to brute strength.
 
-Prerequisites: STR 13, Power Attack, base attack bonus +1.
+Benefit: With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.
 
-Benefit: As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a –2 penalty to your Armor Class until your next turn.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Greater Vital Strike" categorytext="Combat" useradded="no">
-					<description>You can make a single attack that deals incredible damage.
-
-Prerequisites: Improved Vital Strike, Vital Strike, base attack bonus +16.
-
-Benefit: When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Improved Initiative" categorytext="Combat" useradded="no">
-					<description>Your quick reflexes allow you to react rapidly to danger.
-
-Benefit: You get a +4 bonus on initiative checks.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Improved Iron Will (1/day)" categorytext="" useradded="no">
-					<description>Your clarity of thought allows you to resist mental attacks.
-
-Prerequisites: Iron Will.
-
-Benefit: Once per day, you may reroll a Will save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.</description>
-				</feat>
-				<feat name="Improved Vital Strike" categorytext="Combat" useradded="no">
-					<description>You can make a single attack that deals a large amount of damage.
-
-Prerequisites: Vital Strike, base attack bonus +11.
-
-Benefit: When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Iron Will" categorytext="" useradded="no">
-					<description>You are more resistant to mental effects.
-
-Benefit: You get a +2 bonus on all Will saving throws.</description>
-				</feat>
-				<feat name="Multiattack" categorytext="Combat" useradded="no">
-					<description>This creature is particularly skilled at making attacks with its natural weapons.
-
-Prerequisites: Three or more natural attacks
-
-Benefit:The creature's secondary attacks with natural weapons take only a -2 penalty.
-
-Normal: Without this feat, the creature's secondary attacks with natural weapons take a -5 penalty.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Power Attack -5/+10" categorytext="Combat" useradded="no">
-					<description>You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
-
-Prerequisites: Str 13, base attack bonus +1.
-
-Benefit: You can choose to take a –1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (–50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Simple Weapon Proficiency - All" categorytext="Combat" profgroup="yes" useradded="no">
-					<description>You are trained in the use of basic weapons.
-
-Benefit: You make attack rolls with simple weapons without penalty.
-
-Normal: When using a weapon with which you are not proficient, you take a –4 penalty on attack rolls.
-
-Special: All characters except for druids, monks, and wizards are automatically proficient with all simple weapons. They need not select this feat.</description>
-					<featcategory>Combat</featcategory>
-				</feat>
-				<feat name="Vital Strike" categorytext="Combat" useradded="no">
-					<description>You make a single attack that deals significantly more damage than normal.
-
-Prerequisites: Base attack bonus +6.
-
-Benefit: When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack twice and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
-
-Addition from Improved Vital Strike: Your Vital Strike damage is multiplied by 3 instead of 2.
-
-Addition from Greater Vital Strike: Your Vital Strike damage is multiplied by 4 instead of 2.</description>
+Special: Natural weapons are considered light weapons.</description>
 					<featcategory>Combat</featcategory>
 				</feat>
 			</feats>
-			<traits>
-				<trait name="Deathtouched (+2 vs. mind-affecting effects)" categorytext="Bloodline">
-					<description>At some point you were tainted with the corruption of the undead, and you have gained some of their defenses. You gain either a +1 trait bonus on Fortitude saving throws or a +2 trait bonus on saving throws against mind-affecting effects (your choice).</description>
-					<traitcategory>Bloodline</traitcategory>
-				</trait>
-				<trait name="Reckless" categorytext="Combat">
-					<description>You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield. You gain a +1 bonus on Acrobatics checks, and Acrobatics is always a class skill for you.</description>
-					<traitcategory>Combat</traitcategory>
-				</trait>
-			</traits>
+			<traits/>
 			<flaws/>
 			<skilltricks/>
 			<animaltricks/>
-			<attack attackbonus="+15/+10/+5/+0" meleeattack="+25/+20/+15/+10" rangedattack="+15/+10/+5/+0" baseattack="+17">
-				<special name="Breath Weapon (50-ft cone, 12d10 fire, usable every 1d4 rounds, DC 24)" shortname="Breath Weapon (50-ft cone, 12d10 fire, usable ever" sourcetext="Dragon, Red, Adult">
-					<description>Using a breath weapon is a standard action. A dragon can use its breath weapon once every 1d4 rounds, even if it possesses more than one breath weapon. A breath weapon always starts at an intersection adjacent to the dragon and extends in a direction of the dragon's choice. Breath weapons come in two shapes, lines and cones, whose areas vary with the dragon's size. If a breath weapon deals damage, those caught in the area can attempt Reflex saves to take half damage. The save DC against a breath weapon is 10 + 1/2 dragon's HD + dragon's Con modifier. Saves against various breath weapons use the same DC; the type of saving throw is noted in the variety descriptions. A dragon can use its breath weapon when it is grappling or being grappled.</description>
-					<specsource>Dragon, Red, Adult</specsource>
-				</special>
-				<special name="Crush (Small creatures, 2d8+15, DC 24)" shortname="Crush (DC 24)" sourcetext="True Dragon">
-					<description>A flying or jumping Huge or larger dragon can land on foes as a standard action, using its whole body to crush them. Crush attacks are effective only against opponents three or more size categories smaller than the dragon. A crush attack affects as many creatures as fit in the dragon's space. Creatures in the affected area must succeed on a Reflex save (DC equal to that of the dragon's breath weapon) or be pinned, automatically taking bludgeoning damage during the next round unless the dragon moves off them. If the dragon chooses to maintain the pin, it must succeed at a combat maneuver check as normal. Pinned foes take damage from the crush each round if they don't escape. A crush attack deals the indicated damage plus 1-1/2 times the dragon's Strength bonus.</description>
-					<specsource>True Dragon</specsource>
-				</special>
-			</attack>
+			<attack attackbonus="+8/+3" meleeattack="+4/-1" rangedattack="+10/+5" baseattack="+6"/>
 			<melee>
-				<weapon name="Bite (Dragon, Red, Adult)" categorytext="Melee Weapon" typetext="B/P/S" attack="+25" crit="×2" damage="2d8+15" useradded="no">
+				<weapon name="Bite (Lizard)" categorytext="Melee Weapon" typetext="B/P/S" attack="+10" crit="×2" damage="1d4-4" useradded="no">
 					<description>A creature's natural Bite attack.</description>
 					<wepcategory>Melee Weapon</wepcategory>
 					<weptype>Bludgeoning</weptype>
@@ -1129,29 +960,10 @@ Addition from Greater Vital Strike: Your Vital Strike damage is multiplied by 4 
 					<weptype>Slashing</weptype>
 					<situationalmodifiers text=""/>
 				</weapon>
-				<weapon name="Claw x2 (Dragon, Red, Adult)" categorytext="Melee Weapon" typetext="B/S" attack="+25 x2" crit="×2" damage="2d6+10" useradded="no">
-					<description>A creature's natural Claw attack.</description>
-					<wepcategory>Melee Weapon</wepcategory>
-					<weptype>Bludgeoning</weptype>
-					<weptype>Slashing</weptype>
-					<situationalmodifiers text=""/>
-				</weapon>
-				<weapon name="Tail slap (Dragon, Red, Adult)" categorytext="Melee Weapon" typetext="B" attack="+23" crit="×2" damage="2d6+15" useradded="no">
-					<description>A creature's natural Tail Slap attack.</description>
-					<wepcategory>Melee Weapon</wepcategory>
-					<weptype>Bludgeoning</weptype>
-					<situationalmodifiers text=""/>
-				</weapon>
-				<weapon name="Wing x2 (Dragon, Red, Adult)" categorytext="Melee Weapon" typetext="B" attack="+23 x2" crit="×2" damage="1d8+5" useradded="no">
-					<description>A creature's natural Wing attack.</description>
-					<wepcategory>Melee Weapon</wepcategory>
-					<weptype>Bludgeoning</weptype>
-					<situationalmodifiers text=""/>
-				</weapon>
 			</melee>
 			<ranged/>
 			<defenses>
-				<armor name="Natural armor" ac="+21" equipped="yes" natural="yes" useradded="no" quantity="1">
+				<armor name="Natural armor" ac="+6" equipped="yes" natural="yes" useradded="no" quantity="1">
 					<weight text="" value="0"/>
 					<cost text="" value="0"/>
 					<description/>
@@ -1160,246 +972,31 @@ Addition from Greater Vital Strike: Your Vital Strike damage is multiplied by 4 
 			</defenses>
 			<magicitems/>
 			<gear/>
-			<spelllike>
-				<special name="Detect Magic (At will)" shortname="Detect Magic">
-					<description>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.
-
-1st Round: Presence or absence of magical auras.
-2nd Round: Number of different magical auras and the power of the most potent aura.
-3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).
-
-Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.
-
-Aura Strength: An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, detect magic indicates the stronger of the two.
-
-Lingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
-
-Original Strength - Duration of Lingering Aura
-Faint - 1d6 rounds
-Moderate - 1d6 minutes
-Strong - 1d6 x 10 minutes
-Overwhelming - 1d6 days
-
-Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
-
-Detect magic can be made permanent with a permanency spell.</description>
+			<spelllike/>
+			<trackedresources/>
+			<otherspecials>
+				<special name="Improved Evasion (Ex)" shortname="Improved Evasion" type="Extraordinary Ability" sourcetext="Master">
+					<description>When subjected to an attack that normally allows a Reflex saving throw for half damage, a familiar takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.</description>
+					<specsource>Master</specsource>
 				</special>
-				<special name="Pyrotechnics (At will)" shortname="Pyrotechnics">
-					<description>Pyrotechnics turns a fire into a burst of blinding fireworks or a thick cloud of choking smoke, depending on your choice. The spell uses one fire source, which is immediately extinguished. A fire so large that it exceeds a 20-foot cube is only partly extinguished. Magical fires are not extinguished, although a fire-based creature used as a source takes 1 point of damage per caster level.
-
-Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. This effect causes creatures within 120 feet of the fire source to become blinded for 1d4+1 rounds (Will negates). These creatures must have line of sight to the fire to be affected. Spell resistance can prevent blindness.
-
-Smoke Cloud: A stream of smoke billows out from the fire, forming a choking cloud that spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even darkvision, is ineffective in or through the cloud. All within the cloud take -4 penalties to Strength and Dexterity (Fortitude negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud. Spell resistance does not apply.</description>
-				</special>
-				<special name="Suggestion (At will)" shortname="Suggestion">
-					<description>You influence the actions of the target creature by suggesting a course of activity (limited to a sentence or two). The suggestion must be worded in such a manner as to make the activity sound reasonable. Asking the creature to do some obviously harmful act automatically negates the effect of the spell. The suggested course of activity can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do. You can instead specify conditions that will trigger a special activity during the duration. If the condition is not met before the spell duration expires, the activity is not performed. A very reasonable suggestion causes the save to be made with a penalty (such as -1 or -2).</description>
-				</special>
-			</spelllike>
-			<trackedresources>
-				<trackedresource name="Breath Weapon (50-ft cone, 12d10 fire, usable every 1d4 rounds, DC 24)" text="0/1" used="0" left="1" min="0" max="1"/>
-				<trackedresource name="Detect Magic (At will)" text="0/0" used="0" left="0" min="0" max="0"/>
-				<trackedresource name="Improved Iron Will (1/day)" text="0/1" used="0" left="1" min="0" max="1"/>
-				<trackedresource name="Pyrotechnics (At will)" text="0/0" used="0" left="0" min="0" max="0"/>
-				<trackedresource name="Suggestion (At will)" text="0/0" used="0" left="0" min="0" max="0"/>
-			</trackedresources>
-			<otherspecials/>
-			<spellsknown>
-				<spell name="Alarm" level="1" class="Dragon, Red, Adult,Racial" casttime="1 action" range="close (25 + 5 ft./2 levels)" target="" area="20-ft.-radius emanation centered on a point in space" effect="" duration="2 hours/level (D)" save="none" resist="no" dc="14" casterlevel="7" componenttext="Verbal, Somatic, Focus or Divine Focus" schooltext="Abjuration" subschooltext="" descriptortext="" savetext="None" resisttext="No" spontaneous="yes">
-					<description>Alarm creates a subtle ward on an area you select. Once the spell effect is in place, it thereafter sounds a mental or audible alarm each time a creature of Tiny or larger size enters the warded area or touches it. A creature that speaks the password (determined by you at the time of casting) does not set off the alarm. You decide at the time of casting whether the alarm will be mental or audible in nature.
-
-Mental Alarm: A mental alarm alerts you (and only you) so long as you remain within 1 mile of the warded area. You note a single mental "ping" that awakens you from normal sleep but does not otherwise disturb concentration. A silence spell has no effect on a mental alarm.
-
-Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall. In quiet conditions, the ringing can be heard faintly as far as 180 feet away. The sound lasts for 1 round. Creatures within a silence spell cannot hear the ringing. Ethereal or astral creatures do not trigger the alarm.
-
-Alarm can be made permanent with a permanency spell.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Focus or Divine Focus</spellcomp>
-					<spellschool>Abjuration</spellschool>
-				</spell>
-				<spell name="Arcane Mark" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="touch" target="" area="" effect="one personal rune or mark, all of which must fit within 1 sq. ft." duration="permanent" save="none" resist="no" dc="13" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Universal" subschooltext="" descriptortext="" savetext="None" resisttext="No" spontaneous="yes">
-					<description>This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable.
-
-See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an erase spell.
-
-If an arcane mark is placed on a living being, the effect gradually fades in about a month.
-
-Arcane mark must be cast on an object prior to casting instant summons on the same object (see that spell description for details).</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Universal</spellschool>
-				</spell>
-				<spell name="Dispel Magic" level="3" class="Dragon, Red, Adult,Racial" casttime="1 action" range="medium (100 + 10 ft./level)" target="one spellcaster, creature, or object" area="" effect="" duration="instantaneous" save="none" resist="no" dc="16" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Abjuration, Void Elemental" subschooltext="" descriptortext="" savetext="None" resisttext="No" spontaneous="yes">
-					<description>You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the dispel magic can take effect. You choose to use dispel magic in one of two ways: a targeted dispel or a counterspell.
-
-Targeted Dispel: One object, creature, or spell is the target of the dispel magic spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell. For example, a 7th-level caster casts dispel magic, targeting a creature affected by stoneskin (caster level 12th) and fly (caster level 6th). The caster level check results in a 19. This check is not high enough to end the stoneskin (which would have required a 23 or higher), but it is high enough to end the fly (which only required a 17). Had the dispel check resulted in a 23 or higher, the stoneskin would have been dispelled, leaving the fly intact. Had the dispel check been a 16 or less, no spells would have been affected. You can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a wall of fire). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect. If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by summon monster), you make a dispel check to end the spell that conjured the object or creature. If the object that you target is a magic item, you make a dispel check against the item's caster level (DC = 11 + the item's caster level). If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional opening (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this. You automatically succeed on your dispel check against any spell that you cast yourself.
-
-Counterspell: When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster's spell.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Abjuration</spellschool>
-					<spellschool>Void Elemental</spellschool>
-				</spell>
-				<spell name="Grease" level="1" class="Dragon, Red, Adult,Racial" casttime="1 action" range="close (25 + 5 ft./2 levels)" target="one object or 10-ft. square" area="" effect="" duration="1 min./level (D)" save="see text" resist="no" dc="14" casterlevel="7" componenttext="Verbal, Somatic, Material" schooltext="Conjuration, Earth Elemental" subschooltext="Creation" descriptortext="" savetext="See Text" resisttext="No" spontaneous="yes">
-					<description>A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed. The spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Material</spellcomp>
-					<spellschool>Conjuration</spellschool>
-					<spellschool>Earth Elemental</spellschool>
-					<spellsubschool>Creation</spellsubschool>
-				</spell>
-				<spell name="Haste" level="3" class="Dragon, Red, Adult,Racial" casttime="1 action" range="close (25 + 5 ft./2 levels)" target="one creature/level, no two of which can be more than 30 ft. apart" area="" effect="" duration="1 round/level" save="Fortitude negates (harmless)" resist="yes (harmless)" dc="16" casterlevel="7" componenttext="Verbal, Somatic, Material" schooltext="Transmutation" subschooltext="" descriptortext="" savetext="Fortitude Negates, Harmless" resisttext="Yes" spontaneous="yes">
-					<description>The transmuted creatures move and act more quickly than normal. This extra speed has several effects. 
-
-When making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.) 
-
-A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. 
-
-All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters slow.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Material</spellcomp>
-					<spellschool>Transmutation</spellschool>
-				</spell>
-				<spell name="Invisibility" level="2" class="Dragon, Red, Adult,Racial" casttime="1 action" range="personal or touch" target="you or a creature or object weighing no more than 100 lbs./level" area="" effect="" duration="1 min./level (D)" save="Will negates (harmless) or Will negates (harmless, object)" resist="yes (harmless) or yes (harmless, object)" dc="15" casterlevel="7" componenttext="Verbal, Somatic, Material or Divine Focus" schooltext="Illusion, Void Elemental" subschooltext="Glamer" descriptortext="" savetext="Harmless, Object, Will Negates" resisttext="Harmless, Object, Yes" spontaneous="yes">
-					<description>The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.
-
-Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.
-
-Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.
-
-Invisibility can be made permanent (on objects only) with a permanency spell.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Material or Divine Focus</spellcomp>
-					<spellschool>Illusion</spellschool>
-					<spellschool>Void Elemental</spellschool>
-					<spellsubschool>Glamer</spellsubschool>
-				</spell>
-				<spell name="Light" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="touch" target="object touched" area="" effect="" duration="10 min./level" save="none" resist="no" dc="13" casterlevel="7" componenttext="Verbal, Material or Divine Focus" schooltext="Evocation, Wood Elemental" subschooltext="" descriptortext="Light" savetext="None" resisttext="No" spontaneous="yes">
-					<description>This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object. You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit.
-
-Light can be used to counter or dispel any darkness spell of equal or lower spell level.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Material or Divine Focus</spellcomp>
-					<spellschool>Evocation</spellschool>
-					<spellschool>Wood Elemental</spellschool>
-					<spelldescript>Light</spelldescript>
-				</spell>
-				<spell name="Mage Hand" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="close (25 + 5 ft./2 levels)" target="one nonmagical, unattended object weighing up to 5 lbs." area="" effect="" duration="concentration" save="none" resist="no" dc="13" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Transmutation" subschooltext="" descriptortext="" savetext="None" resisttext="No" spontaneous="yes">
-					<description>You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Transmutation</spellschool>
-				</spell>
-				<spell name="Magic Missile" level="1" class="Dragon, Red, Adult,Racial" casttime="1 action" range="medium (100 + 10 ft./level)" target="up to five creatures, no two of which can be more than 15 ft. apart" area="" effect="" duration="instantaneous" save="none" resist="yes" dc="14" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Evocation" subschooltext="" descriptortext="Force" savetext="None" resisttext="Yes" spontaneous="yes">
-					<description>A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. The missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell. For every two caster levels beyond 1st, you gain an additional missile - two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Evocation</spellschool>
-					<spelldescript>Force</spelldescript>
-				</spell>
-				<spell name="Mending" level="0" class="Dragon, Red, Adult,Racial" casttime="10 minutes" range="10 ft." target="one object of up to 1 lb./level" area="" effect="" duration="instantaneous" save="Will negates (harmless, object)" resist="yes (harmless, object)" dc="13" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Transmutation, Metal Elemental" subschooltext="" descriptortext="" savetext="Harmless, Object, Will Negates" resisttext="Harmless, Object, Yes" spontaneous="yes">
-					<description>This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Transmutation</spellschool>
-					<spellschool>Metal Elemental</spellschool>
-				</spell>
-				<spell name="Message" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="medium (100 + 10 ft./level)" target="one creature/level" area="" effect="" duration="10 min./level" save="none" resist="no" dc="13" casterlevel="7" componenttext="Verbal, Somatic, Focus" schooltext="Transmutation, Air Elemental" subschooltext="" descriptortext="Language-Dependent" savetext="None" resisttext="No" spontaneous="yes">
-					<description>You can whisper messages and receive whispered replies. Those nearby can hear these messages with a DC 25 Perception check. You point your finger at each creature you want to receive the message. When you whisper, the whispered message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch of common metal (or a thin sheet of lead), or 3 feet of wood or dirt blocks the spell. The message does not have to travel in a straight line. It can circumvent a barrier if there is an open path between you and the subject, and the path's entire length lies within the spell's range. The creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not meaning; it doesn't transcend language barriers. To speak a message, you must mouth the words and whisper.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Focus</spellcomp>
-					<spellschool>Transmutation</spellschool>
-					<spellschool>Air Elemental</spellschool>
-					<spelldescript>Language-Dependent</spelldescript>
-				</spell>
-				<spell name="Prestidigitation" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="10 ft." target="see text" area="see text" effect="see text" duration="1 hour" save="see text" resist="no" dc="13" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Universal" subschooltext="" descriptortext="" savetext="See Text" resisttext="No" spontaneous="yes">
-					<description>Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters.
-
-Prestidigitation can create small objects, but they look crude and artificial. The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, prestidigitation lacks the power to duplicate any other spell effects. Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Universal</spellschool>
-				</spell>
-				<spell name="Read Magic" level="0" class="Dragon, Red, Adult,Racial" casttime="1 action" range="personal" target="you" area="" effect="" duration="10 min./level" save="" resist="" dc="13" casterlevel="7" componenttext="Verbal, Somatic, Focus" schooltext="Divination" subschooltext="" descriptortext="" savetext="" resisttext="" spontaneous="yes">
-					<description>You can decipher magical inscriptions on objects - books, scrolls, weapons, and the like - that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).
-
-Read magic can be made permanent with a permanency spell.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Focus</spellcomp>
-					<spellschool>Divination</spellschool>
-				</spell>
-				<spell name="Resist Energy" level="2" class="Dragon, Red, Adult,Racial" casttime="1 action" range="touch" target="creature touched" area="" effect="" duration="10 min./level" save="Fortitude negates (harmless)" resist="yes (harmless)" dc="15" casterlevel="7" componenttext="Verbal, Somatic, Divine Focus" schooltext="Abjuration, All Elements" subschooltext="" descriptortext="" savetext="Fortitude Negates, Harmless" resisttext="Yes" spontaneous="yes">
-					<description>This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well.
-
-Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.
-
-Resist energy overlaps (and does not stack with) protection from energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Divine Focus</spellcomp>
-					<spellschool>Abjuration</spellschool>
-					<spellschool>All Elements</spellschool>
-				</spell>
-				<spell name="See Invisibility" level="2" class="Dragon, Red, Adult,Racial" casttime="1 action" range="personal" target="you" area="" effect="" duration="10 min./level (D)" save="" resist="" dc="15" casterlevel="7" componenttext="Verbal, Somatic, Material" schooltext="Divination, Void Elemental" subschooltext="" descriptortext="" savetext="" resisttext="" spontaneous="yes">
-					<description>You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures. The spell does not reveal the method used to obtain invisibility. It does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, concealed, or otherwise hard to see.
-
-See invisibility can be made permanent with a permanency spell.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellcomp>Material</spellcomp>
-					<spellschool>Divination</spellschool>
-					<spellschool>Void Elemental</spellschool>
-				</spell>
-				<spell name="Shield" level="1" class="Dragon, Red, Adult,Racial" casttime="1 action" range="personal" target="you" area="" effect="" duration="1 min./level (D)" save="" resist="" dc="14" casterlevel="7" componenttext="Verbal, Somatic" schooltext="Abjuration, Void Elemental" subschooltext="" descriptortext="Force" savetext="" resisttext="" spontaneous="yes">
-					<description>Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Somatic</spellcomp>
-					<spellschool>Abjuration</spellschool>
-					<spellschool>Void Elemental</spellschool>
-					<spelldescript>Force</spelldescript>
-				</spell>
-				<spell name="True Strike" level="1" class="Dragon, Red, Adult,Racial" casttime="1 action" range="personal" target="you" area="" effect="" duration="see text" save="" resist="" dc="14" casterlevel="7" componenttext="Verbal, Focus" schooltext="Divination, Void Elemental" subschooltext="" descriptortext="" savetext="" resisttext="" spontaneous="yes">
-					<description>You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.</description>
-					<spellcomp>Verbal</spellcomp>
-					<spellcomp>Focus</spellcomp>
-					<spellschool>Divination</spellschool>
-					<spellschool>Void Elemental</spellschool>
-				</spell>
-			</spellsknown>
+			</otherspecials>
+			<spellsknown/>
 			<spellsmemorized/>
 			<spellbook/>
 			<spellclasses/>
 			<journals>
-				<journal name="Title" gamedate="0" realdate="20101214" xp="0" pp="0" gp="0" sp="0" cp="0" prestigeaward="0" prestigespend="0">
+				<journal name="Title" gamedate="0" realdate="20130426" xp="0" pp="0" gp="0" sp="0" cp="0" prestigeaward="0" prestigespend="0">
 					<description/>
 				</journal>
-				<journal name="Title" gamedate="0" realdate="20101214" xp="0" pp="0" gp="0" sp="0" cp="0" prestigeaward="0" prestigespend="0">
+				<journal name="Title" gamedate="0" realdate="20130426" xp="0" pp="0" gp="0" sp="0" cp="0" prestigeaward="0" prestigespend="0">
 					<description/>
 				</journal>
 			</journals>
-			<images>
-				<image filename="red_dragon_adult-image001.jpg"/>
-			</images>
+			<images/>
 			<validation>
 				<report/>
 			</validation>
 			<settings summary="Advanced Class Guide: Advanced Class Guide; Advanced Player's Guide: Advanced Player's Guide, Advanced Player's Guide Familiars, Advanced Player's Guide Traits, Advanced Player's Guide New Combat Maneuvers; Advanced Race Guide: Advanced Race Guide, Race Builder; Mythic Adventures: Mythic Adventures, Use Mythic Flaws; Occult Adventures: Occult Adventures; Pathfinder Unchained -&gt; Chapter 1: Classes: Unchained Classes; Pathfinder Unchained -&gt; Chapter 4: Magic: Scaling Items; Ultimate Campaign: Ultimate Campaign; Ultimate Campaign -&gt; Ultimate Campaign Character Backgrounds: Unrestricted Traits &amp; Drawbacks; Ultimate Combat: Ultimate Combat; Ultimate Equipment: Ultimate Equipment; Ultimate Magic: Ultimate Magic, Ultimate Magic Familiars; Bestiary: Bestiary, Bestiary 2, Bestiary 3, Bestiary 4, Bestiary Familiars, Bestiary Free Content, Bonus Bestiary, Monster Codex; Player Companion: Advanced Class Origins, Adventurer's Armory, Alchemy Manual, Andoran, Spirit of Liberty, Animal Archive, Bastards of Golarion, Black Markets, Blood of Angels, Blood of Fiends, Blood of the Elements, Blood of the Moon, Blood of the Night, Champions of Balance, Champions of Corruption, Champions of Purity, Cheliax, Empire of Devils, Cohorts and Companions, Demon Hunter's Handbook, Dirty Tactics Toolbox, Dragon Empires Primer, Dragonslayer's Handbook, Dungeoneer's Handbook, Dwarves of Golarion, Elves of Golarion, Faiths and Philosophies, Faiths of Balance, Faiths of Corruption, Faiths of Purity, Familiar Folio, Giant Hunter's Handbook, Gnomes of Golarion, Goblins of Golarion, Halflings of Golarion, Harrow Handbook, Heroes of the Streets, Heroes of the Wild, Humans of Golarion, Inner Sea Primer, Knights of the Inner Sea, Kobolds of Golarion, Magical Marketplace, Melee Tactics Toolbox, Monster Summoner's Handbook, Mythic Origins, Orcs of Golarion, Osirion, Land of Pharaohs, Pathfinder Society Primer, People of the North, People of the River, People of the Sands, People of the Stars, Pirates of the Inner Sea, Qadira, Gateway to the East, Quests &amp; Campaigns, Ranged Tactics Toolbox, Sargava, the Lost Colony, Taldor, Echoes of Glory, Undead Slayer's Handbook, Varisia, Birthplace of Legends; Campaign Setting: Inner Sea World Guide; Miscellaneous Content: Character Traits Web Enhancement, Core Rulebook Deities, GameMastery Guide, Paizo Blog; Pathfinder Modules: Plunder and Peril, Tears at Bitter Manor, The Dragon's Demand, The Harrowing, The Midnight Mirror; Pathfinder Adventure Paths: Strange Aeons; Advancement Speed: Medium Advancement; Firearm Availability: Emerging Guns; Experimental Options: Don't show statblock summary window; Output Options: Hide Ammo (in weapons), Hide Unusable Skills, Hide Validation Messages, Show Hero Portrait, Show Sourcebook Report"/>
-			<npc>
-				<description>A crown of cruel horns surrounds the head of this mighty dragon. Thick scales the color of molten rock cover its long body.</description>
-				<basics/>
-				<tactics/>
-				<ecology>
-					<npcinfo name="Ecology - Environment">Warm mountains</npcinfo>
-					<npcinfo name="Ecology - Organization">Solitary</npcinfo>
-					<npcinfo name="Ecology - Treasure">Triple</npcinfo>
-				</ecology>
-				<additional/>
-			</npc>
 			<minions/>
 		</character>
 	</public>

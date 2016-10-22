@@ -22,6 +22,13 @@ export class ParseResists {
             })
         })
 
+        this.xml.find('resistances').iter('special', (item) => {
+            this.resists.push({
+                name: item.get('name'),
+                description: item.find('description').text
+            })
+        })
+
         this.xml.find('weaknesses').iter('special', (item) => {
             this.resists.push({
                 name: item.get('name'),
