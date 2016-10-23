@@ -12,3 +12,4 @@ export * from './parse-skills';
 export * from './parse-specials';
 export * from './parse-spells';
 export * from './parse-traits';
+export * from './parse-weapons';

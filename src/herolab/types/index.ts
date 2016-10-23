@@ -9,3 +9,4 @@ export * from './skill-type';
 export * from './special-type';
 export * from './spell-type';
 export * from './trait-type';
+export * from './weapon-type';

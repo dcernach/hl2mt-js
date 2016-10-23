@@ -52,8 +52,6 @@ describe('Herolab XML export parsing (SPELLBOOK, SPELLS MEMORIZED and SPELLS KNO
         it('Should parse SEONI Spells Known', function () {
             let parser = new hl.ParseSpells(seoni);
             parser.parse();
-
-            console.log(JSON.stringify(parser.spellsKnown));
             // TODO: Too lazy to write a proper test case here
         });
     });
