@@ -5,8 +5,8 @@ import { ElementTree, Element } from 'elementtree';
 import * as hl from '../../src/herolab';
 
 describe('Herolab XML export parsing (WEAPONS)', function () {
-    let valeros: Element;
-    let ezren: Element;
+    let valeros : Element;
+    let ezren   : Element;
 
 
     before('Loading "iconic_lv12_valeros.xml" file', function (done) {
@@ -33,21 +33,21 @@ describe('Herolab XML export parsing (WEAPONS)', function () {
     })
 
 
-    it.only('Should parse VALEROS Melee Weapons', function (done) {
+    it('Should parse VALEROS Melee Weapons', function (done) {
         // TODO: Too lazy to write a proper test case here
         let parser = new hl.ParseWeapons(valeros);
         parser.parse();
         done()
-        console.log(JSON.stringify(parser.meleeWeapons));
+        // console.log(JSON.stringify(parser.meleeWeapons));
     })
 
 
-    it.only('Should parse VALEROS Ranged Weapons', function (done) {
+    it('Should parse VALEROS Ranged Weapons', function (done) {
         // TODO: Too lazy to write a proper test case here
         let parser = new hl.ParseWeapons(valeros);
         parser.parse();
         done();
-        console.log(JSON.stringify(parser.rangedWeapons));
+        // console.log(JSON.stringify(parser.rangedWeapons));
     })
 
 
@@ -56,7 +56,7 @@ describe('Herolab XML export parsing (WEAPONS)', function () {
         let parser = new hl.ParseWeapons(ezren);
         parser.parse();
         done();
-        console.log(JSON.stringify(parser.meleeWeapons));
+        // console.log(JSON.stringify(parser.meleeWeapons));
     })
 
 
@@ -65,6 +65,6 @@ describe('Herolab XML export parsing (WEAPONS)', function () {
         let parser = new hl.ParseWeapons(ezren);
         parser.parse();
         done();
-        console.log(JSON.stringify(parser.rangedWeapons));
+        // console.log(JSON.stringify(parser.rangedWeapons));
     })
 })

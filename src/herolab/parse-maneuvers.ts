@@ -12,7 +12,7 @@ export class ParseManeuvers {
     public parse() {
         let tree = this.xml.find('maneuvers');
         this.base = {
-            name        : 'Base',
+            name        : '-',
             cmb         :  parseInt(tree.get('cmb') || '0'),
             cmd         :  parseInt(tree.get('cmd') || '0'),
             cmdFlat     :  parseInt(tree.get('cmdflatfooted') || '0'),

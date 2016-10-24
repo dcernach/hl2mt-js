@@ -3,6 +3,7 @@ export * from './parse-base';
 
 export * from './parse-attributes';
 export * from './parse-feats';
+export * from './parse-items';
 export * from './parse-languages';
 export * from './parse-maneuvers';
 export * from './parse-resists';

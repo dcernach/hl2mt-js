@@ -1,4 +1,5 @@
 export type ResistanceType = {
-    name: string,
-    description: string
+    name        : string;
+    shortName   : string;
+    description : string;
 }

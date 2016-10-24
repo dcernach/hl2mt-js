@@ -1,5 +1,8 @@
+export * from './base-type';
+
 export * from './attribute-type';
 export * from './feat-type';
+export * from './item-type';
 export * from './language-type';
 export * from './maneuver-type';
 export * from './resistance-type';

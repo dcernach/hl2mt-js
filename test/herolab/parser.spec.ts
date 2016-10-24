@@ -7,8 +7,8 @@ import * as hl from '../../src/herolab';
 describe('Herolab XML export parsing (STANDARD)', function () {
     let char: Element;
 
-    before('Loading "red_dragon_adult.xml" file', function (done) {
-        let file = `${__testdir}/data/red_dragon_adult.xml`;
+    before('Loading "bestiary_red_dragon_adult.xml" file', function (done) {
+        let file = `${__testdir}/data/bestiary_red_dragon_adult.xml`;
 
         hl.parse(file, function (err, _tree_) {
             if (err) return done(err);
@@ -19,7 +19,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" FEATS', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" FEATS', function () {
         let parser = new hl.ParseFeats(char);
         parser.parse();
         expect(parser.feats).to.have.lengthOf(10);
@@ -28,25 +28,26 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" RESISTANCES', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" RESISTANCES', function () {
         let parser = new hl.ParseResists(char);
         parser.parse();
-        expect(parser.resists).to.have.lengthOf(6);
-        expect(parser.resists[0].name).to.be.equal('Damage Reduction (5/magic)');
-        expect(parser.resists[1].name).to.be.equal('Immunity to Fire');
+        expect(parser.all).to.have.lengthOf(6);
+        expect(parser.all[0].name).to.be.equal('Damage Reduction (5/magic)');
+        expect(parser.all[1].name).to.be.equal('Immunity to Fire');
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" LANGUAGES', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" LANGUAGES', function () {
         let parser = new hl.ParseLanguages(char);
         parser.parse();
         expect(parser.languages).to.have.lengthOf(4);
         expect(parser.languages[0].name).to.be.equal('Common');
         expect(parser.languages[1].name).to.be.equal('Draconic');
+        expect(parser.languages.toString()).to.be.equal('Common, Draconic, Dwarven, Orc');
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" SKILLS', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" SKILLS', function () {
         let parser = new hl.ParseSkills(char);
         parser.parse();
         expect(parser.skills).to.have.lengthOf(23);
@@ -63,7 +64,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" TRAITS', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" TRAITS', function () {
         let parser = new hl.ParseTraits(char);
         parser.parse();
         expect(parser.traits).to.have.lengthOf(2);
@@ -74,7 +75,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" ATTRIBUTES', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" ATTRIBUTES', function () {
         let parser = new hl.ParseAttributes(char);
         parser.parse();
 
@@ -92,7 +93,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" SAVES', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" SAVES', function () {
         let parser = new hl.ParseSaves(char);
         parser.parse();
 
@@ -106,7 +107,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" SENSES', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" SENSES', function () {
         let parser = new hl.ParseSenses(char);
         parser.parse();
 
@@ -119,7 +120,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" MANEUVERS', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" MANEUVERS', function () {
         let parser = new hl.ParseManeuvers(char);
         parser.parse();
 
@@ -130,7 +131,7 @@ describe('Herolab XML export parsing (STANDARD)', function () {
     })
 
 
-    it('Should parse the "red_dragon_adult.xml" SPECIALS', function () {
+    it('Should parse the "bestiary_red_dragon_adult.xml" SPECIALS', function () {
         let parser = new hl.ParseSpecials(char);
         parser.parse();
 
