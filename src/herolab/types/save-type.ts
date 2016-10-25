@@ -1,25 +1,10 @@
-export type savingsType = {
-    fort: saveType;
-    ref: saveType;
-    will: saveType;
-    all: saveType;
-}
-
-export type saveType = {
-    name: string,
-    abbr: string,
-    save: number,
-    base: number,
-    from: {
-        attr: number,
-        resist?: number,
-        misc?: number
-    }
-    situational?: {
-        text: string,
-        modifiers: {
-            text: string,
-            source: string
-        }[]
-    }
+export type SaveType = {
+    abbr        : string,
+    name        : string,
+    save        : number,
+    base        : number,
+    fromAttr    : number,
+    fromResist  : number,
+    fromMisc    : number,
+    situational : string   
 }

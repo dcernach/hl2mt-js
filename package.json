@@ -8,8 +8,8 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "del": "^2.2.2",
-    "handlebars": "^4.0.5",
-    "xmldoc": "^0.5.1"
+    "elementtree": "^0.1.6",
+    "handlebars": "^4.0.5"
   },
   "bugs": {
     "url": "https://github.com/dcernach/hl2mt-js/issues"

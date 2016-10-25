@@ -11,6 +11,7 @@
             "request": "launch",
             "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
             "args": [
+                "-c",
                 "-t",
                 "600000",
                 "test/**/*.spec.js",
