@@ -4,7 +4,7 @@ import { __testdir } from '../__config';
 import { ElementTree, Element } from 'elementtree';
 import * as hl from '../../src/herolab';
 
-describe.only('Herolab XML export parsing (BASE STATS)', function () {
+describe('Herolab XML export parsing (BASE STATS)', function () {
     let _valeros_: Element;
     let _bythos_: Element;
 
