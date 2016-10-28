@@ -1,45 +1,49 @@
 {
-  "name": "hl2mt-js",
-  "description": "Herolab to MapTool @NEXT (hl2mt-js)",
-  "author": "Dalton Andrade",
-  "version": "0.0.1",
-  "license": "GPL-3.0",
-  "main": "build/index.js",
-  "dependencies": {
-    "bluebird": "^3.4.6",
-    "del": "^2.2.2",
-    "elementtree": "^0.1.6",
-    "handlebars": "^4.0.5"
-  },
-  "bugs": {
-    "url": "https://github.com/dcernach/hl2mt-js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dcernach/hl2mt-js.git"
-  },
-  "devDependencies": {
-    "@types/bluebird": "^3.0.35",
-    "@types/chai": "^3.4.34",
-    "@types/gulp": "^3.8.32",
-    "@types/gulp-typescript": "0.0.32",
-    "@types/handlebars": "^4.0.31",
-    "@types/mocha": "^2.2.32",
-    "@types/node": "^6.0.45",
-    "@types/sinon": "^1.16.31",
-    "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-typescript": "^3.0.2",
-    "mocha": "^3.1.0",
-    "run-sequence": "^1.2.2",
-    "sinon": "^1.17.6",
-    "typescript": "^2.0.3"
-  },
-  "scripts": {
-    "pretest": "tsc -p .",
-    "test": "mocha -t 600000 test/**/*.spec.js build/**/*.spec.js",
-    "build:tsc": "gulp build:build",
-    "build:clean": "gulp build:clean"
-  }
+    "name": "hl2mt-js",
+    "description": "Herolab to MapTool @NEXT (hl2mt-js)",
+    "author": "Dalton Andrade",
+    "version": "0.0.1",
+    "license": "GPL-3.0",
+    "main": "build/index.js",
+    "dependencies": {
+        "adm-zip": "^0.4.7",
+        "bluebird": "^3.4.6",
+        "elementtree": "^0.1.6",
+        "handlebars": "^4.0.5",
+        "lodash": "^4.16.4"
+    },
+    "bugs": {
+        "url": "https://github.com/dcernach/hl2mt-js/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcernach/hl2mt-js.git"
+    },
+    "devDependencies": {
+        "@types/adm-zip": "^0.4.30",
+        "@types/bluebird": "^3.0.35",
+        "@types/chai": "^3.4.34",
+        "@types/gulp-typescript": "0.0.32",
+        "@types/gulp": "^3.8.32",
+        "@types/handlebars": "^4.0.31",
+        "@types/lodash": "^4.14.37",
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^6.0.45",
+        "@types/sinon": "^1.16.31",
+        "chai": "^3.5.0",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-typescript": "^3.0.2",
+        "gulp-sourcemaps": "^1.6.0",
+        "mocha": "^3.1.0",
+        "run-sequence": "^1.2.2",
+        "sinon": "^1.17.6",
+        "typescript": "^2.0.3"
+    },
+    "scripts": {
+        "pretest": "tsc -p .",
+        "test": "mocha -t 600000 test/**/*.spec.js build/**/*.spec.js",
+        "build:tsc": "gulp build:build",
+        "build:clean": "gulp build:clean"
+    }
 }
