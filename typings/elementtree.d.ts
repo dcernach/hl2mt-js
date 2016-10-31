@@ -47,6 +47,12 @@ declare module "elementtree" {
          * @returns The text content of the first matching element, or the default value no element was found. Note that if the element has is found, but has no text content, this method returns an empty string.
          */
         findtext(path: string, defvalue?: string): string;
+
+        /**
+         * Generates a string representation of an XML element, including all subelements. element 
+         * is an Element instance.
+         */
+        tostring(el: Element, options?: any)
     }
 
     export interface Element {
@@ -135,7 +141,7 @@ declare module "elementtree" {
          * Gets a dictionary of attribute names and values. The names are returned in an arbitrary order
          * (just like for an ordinary Object.keys JS dictionary).
          */
-        keys(): {[key: string]: any};
+        keys(): { [key: string]: any };
 
         /**
          * Executes an iterator like function. The iterator loops over this element and all subelements,
@@ -146,7 +152,15 @@ declare module "elementtree" {
         iter(tag: string, cb: (elm: Element) => void);
 
         itertext(cb: (text: string) => void);
+
+        remove(el: Element): boolean;
     }
+
+    /**
+     * Generates a string representation of an XML element, including all subelements. element 
+     * is an Element instance.
+     */
+    export function tostring(el: Element, options?: any);
 
     export function XML(data: string): Element;
 
